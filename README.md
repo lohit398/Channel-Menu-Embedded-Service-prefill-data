@@ -15,9 +15,9 @@ Setup Guide for Prefilling Pre-chat Form when Having an embedded service in a Ch
       Type=Settings File
       Static Resource = DE_snapinsSnippetSettingsFile
       
-2) Add “SnapinsSnippetSettingsFile” to Code Settings Name in the Channel Menu component settings.
+4.) Add “SnapinsSnippetSettingsFile” to Code Settings Name in the Channel Menu component settings.
 
-3) Add the “Store User Details” component to the community page.
+5.) Add the “Store User Details” component to the community Home page.
 
 Note: Please Make Sure that you name the "Channel Menu Item Name" as "Chat" in the Channel Menu.
 
