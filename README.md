@@ -2,6 +2,7 @@ Setup Guide for Prefilling Pre-chat Form when Having an embedded service in a Ch
 
 1.) On the top Right side clik On "Setup"
 2.) Now Search for "Channel Menu" in the quick find box.
+
 3.) Now Click on the dropdown next "Your_Channel_Menu_Name" and then choose "View"
   3.1) Click on the "Code Settings".
   3.2) Click on "Add Code setting".
