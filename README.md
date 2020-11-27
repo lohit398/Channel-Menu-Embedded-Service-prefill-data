@@ -1,25 +1,45 @@
-Setup Guide for Prefilling Pre-chat Form when Having an embedded service in a Channel Menu 
+Setup Instructions
 
-1.) On the top Right side clik On "Setup"
+Channel Menu - Pre-chat Form Default Values
 
-2.) Now Search for "Channel Menu" in the quick find box.
+Instructions
 
-3.) Now Click on the dropdown next "Your_Channel_Menu_Name" and then choose "View"
+1) Configure the Channel Menu
 
-  3.1) Click on the "Code Settings".
-  
-  3.2) Click on "Add Code setting".
-  
-  3.3) Please fill the Field Values as per the below:
-      Code Setting Name=SnapinsSnippetSettingsFile
-      Type=Settings File
-      Static Resource = DE_snapinsSnippetSettingsFile
-      
-4.) Add “SnapinsSnippetSettingsFile” to Code Settings Name in the Channel Menu component settings.
+Visit the Channel Menu Configuration page by going to: Setup → Embedded Service → Channel Menu
 
-5.) Add the “Store User Details” component to the community Home page.
+Add a new Code Setting entry for your Channel Menu
 
-Note: Please Make Sure that you name the "Channel Menu Item Name" as "Chat" in the Channel Menu.
+* For your Channel Menu of choice, choose “View” on the drop-down menu to the right.
+    * Under "Code Settings" click "Edit".
+    * Click “Add Code Setting”.
+    * Add the following field values:
+        * Field name: "Code Setting Name" → "SnapinsSnippetSettingsFile"
+        * Field name: "Type" → "Settings File"
+        * Field name: "Static Resource" → "DE_snapinsSnippetSettingsFile"
+    * Click "Save"
+
+Ensure the chat channel name is "Chat"
+
+* Under "Menu Setup", click "Edit"
+    * Click into your chat menu item
+        * Ensure the "Menu Item Name" field value is "Chat" with the 'C' Capitalized. Note: this setup requirement will be eliminated in a future release.
+    * Click "Save" if you made a change.
+
+
+
+2. Set up the Channel Menu in your Community
+
+* Edit your Community
+    * Open the "Channel Menu" component's settings
+        * Set the "Code Settings Name" field's value to “SnapinsSnippetSettingsFile”
+        * Add the “Store User Details” component to the community page
+    * Publish your community
+    * Log your community user off and on again
+
+
+Note: Please make sure the Menu Item Name of the WebChat is "Chat" (with Capital C at the head)
+
 
 Creators:
 Jeff Hunt - j.hunt@salsforce.com
